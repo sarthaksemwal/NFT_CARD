@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: 'Outfit', sans-serif;
+    }
+
+.container{
+    background-color:hsl(216, 50%, 16%);
+    height: 520px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+img{
+    height: 260px;
+    width: 270px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+h2{
+    font-weight: 400;
+    margin-top: 15px;
+   margin-left: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+h4{
+    font-weight: 300;
+    color:   hsl(215, 51%, 70%);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.lower{
+    position: absolute;
+}
+
+.lower>h4{
+    position: relative;
+    left:20px;
+    bottom: 30px;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.clock{
+    position: relative;
+    left:200px;
+    bottom: 48px;
+}
+h5{
+    position: relative;
+    left: 221px;
+    bottom:70px;
+    color:#8bacda;
+}
+
+
+
+.eth{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+hr {
+    height:0.5px;
+    width: 230px; 
+    border: 1px solid #8bacda;
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    
+}
+
+.avatar{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+}
+
+p{
+    color:#8bacda;
+    position: relative;
+    left:75px;
+    bottom: 65px;
+}
+
+span{
+    color:#fff
+}
