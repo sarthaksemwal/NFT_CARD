@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+
+/* styling */
+
 body{
     background-color:hsl(217, 54%, 11%);
     display: flex;
